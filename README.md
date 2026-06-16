@@ -139,17 +139,16 @@ else:
 
       
 ##OUTPUT
-/usr/local/lib/python3.12/dist-packages/keras/src/layers/core/dense.py:106: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
-  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
-
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/core/dense.py:106: 
 Starting model training...
 Model training complete.
 
-Accuracy: 89.89%
+Accuracy: 60.00%
 
-Attempting prediction for: dataset/03-01-01-01-02-02-01.wav
-1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 89ms/step
-Predicted Emotion: neutral
+Attempting prediction for: dataset/03-01-02-02-01-01-01.wav
+1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 101ms/step
+Predicted Emotion: calm
+
 
 ## Emotions Detected
 - Happy
